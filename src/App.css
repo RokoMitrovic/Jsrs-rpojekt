@@ -1,0 +1,102 @@
+body{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+#Header{
+  background-position: center center;
+}
+
+.navbar{
+  background-color: black;
+  display: block;
+  height: 70px;
+}
+
+.navbtn{
+  padding: 10px 20px 10px 20px;
+  margin-left: 500px;
+  font-size: 40px;
+  width: 50px;
+}
+
+.navbtn:hover{
+  background-color: gray;
+}
+
+.link{
+  text-decoration: none;
+  color:white;
+}
+.Homeimg{
+  height: 500px;
+  margin: 25px;
+}
+.s1{
+  float: left;
+}
+.s2{
+  float: right;
+}
+h1{
+  font-size: 69px;
+  margin-top: 10px;
+}
+p{
+  font-size:30px;
+}
+.wrapper{
+  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns:repeat(3, 300px);
+  grid-template-rows: repeat(1, 300px);
+  gap: 15px;
+  margin-top: 30px;
+  margin-left: 170px;
+}
+
+.Cover{
+  height: 400px;
+  width: 400px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+  box-shadow: 5px 5px 15px 5px #000000;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  margin-left: 70px;
+  margin-bottom: 30px;
+}
+.FD{
+  margin-left: 300px;
+}
+.Footer{
+  height: 500px;
+  background-color: #000000;
+}
+td{
+  padding: 10px;
+}
+.naslov{
+  font-size: 23px;
+}
+td{
+  font-size: 16px;
+}
+.tab{
+  margin-left: 30px;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.imgg{
+  width:600px;
+}
+.he{
+  height: 750px;
+}
+.udesno{
+  margin-left: 600px;
+}
